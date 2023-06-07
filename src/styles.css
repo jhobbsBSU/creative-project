@@ -1,0 +1,27 @@
+@import "modern-normalize";
+
+
+:root {
+  --color-text-main: rgb(255, 255, 255);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#root {
+  overflow: auto;
+}
+
+body {
+  font-family: "Spline Sans", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color-text-main);
+  background: #445e83;
+  user-select: none;
+}

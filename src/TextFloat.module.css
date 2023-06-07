@@ -1,0 +1,15 @@
+.container {
+  width: 170px;
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  color: black;
+  font-weight: 750;
+  font-size: 20px;
+  position: relative;
+  left: 100%;
+  user-select: none;
+  will-change: transform;
+  }
+  
+  
